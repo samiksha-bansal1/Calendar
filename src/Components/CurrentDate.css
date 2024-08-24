@@ -1,0 +1,26 @@
+.dateCont {
+  width: 80%;
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.next {
+  position: absolute;
+  right: 10px;
+}
+.prev {
+  position: absolute;
+  right: 40px;
+}
+.icon {
+  color: #fe6457;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media (width<=900px) {
+  .dateCont {
+    width: 100%;
+  }
+}

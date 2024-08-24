@@ -1,0 +1,76 @@
+.list {
+  padding: 1%;
+  height: 100%;
+  overflow-y: auto;
+  font-size: 1rem;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.task {
+  margin-top: 10px;
+  border-radius: 0.85rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-template-rows: auto auto;
+}
+.task-date {
+  padding: 5px;
+  box-sizing: border-box;
+  grid-column: 1;
+  grid-row: 1;
+}
+.task-time {
+  padding: 5px;
+  box-sizing: border-box;
+  grid-column: 2;
+  grid-row: 1;
+}
+.task-todo {
+  padding: 5px;
+  box-sizing: border-box;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  overflow-x: scroll;
+}
+.task-todo::-webkit-scrollbar {
+  display: none;
+}
+.update-icon,
+.delete-icon {
+  padding: 0px;
+}
+@media (width>=900px) {
+  .list {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    overflow-y: auto;
+    height: 100%;
+  }
+  .list::-webkit-scrollbar {
+    display: none;
+  }
+  .icons {
+    font-size: 20px;
+  }
+}
+@media (width>=450px) {
+  .list {
+    font-size: 1rem;
+  }
+  .icons {
+    font-size: 20px;
+  }
+}
+@media (width>=2000) {
+  .list {
+    font-size: 2rem;
+  }
+  .icons {
+    font-size: 40px;
+  }
+}

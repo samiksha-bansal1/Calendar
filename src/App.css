@@ -1,0 +1,50 @@
+body {
+  background-image: url(./Components/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.event-add {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  background-color: white;
+  width: 18rem;
+  padding: 25px;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+.popUp-time {
+  border: none;
+  border-top: 0.2rem solid #036efd;
+  border-bottom: 0.2rem solid #036efd;
+  color: black;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.popUp-task {
+  height: 100px;
+  padding-left: 15px;
+  border-radius: 0.5rem;
+  color: black;
+  transition: border 0.5s;
+}
+.eventBtn {
+  color: #fff;
+}
+@media (width<=900px) {
+  .event-add {
+    width: 15rem;
+  }
+  .popUp-task {
+    height: 70px;
+  }
+  .popUp-time {
+    height: 2.5rem;
+  }
+}

@@ -1,0 +1,66 @@
+.calendar {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.calC {
+  display: inline;
+}
+.dates div {
+  width: calc(100% / 7);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+}
+.week {
+  display: flex;
+  flex-wrap: wrap;
+}
+.week div {
+  width: calc(100% / 7);
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  color: #fe6457;
+}
+.currentDate2 {
+  color: #fe6457;
+}
+@media (width<=900px) {
+  .calendar {
+    width: 100%;
+  }
+  .dates div {
+    font-size: 16px;
+  }
+  .week div {
+    font-size: 16px;
+  }
+}
+@media (width>=450px) {
+  .dates div {
+    font-size: 20px;
+  }
+  .week div {
+    font-size: 20px;
+  }
+}
+@media (width>=2000) {
+  .dates div {
+    font-size: 40px;
+  }
+  .week div {
+    font-size: 40px;
+  }
+}
