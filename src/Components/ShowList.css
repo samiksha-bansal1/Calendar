@@ -1,7 +1,7 @@
 .list {
-  padding: 1%;
+  padding: 1% 1% 400px 1%;
   height: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
   font-size: 1rem;
 }
 .list::-webkit-scrollbar {
@@ -48,7 +48,7 @@
     width: 50%;
     padding: 1%;
     font-size: 1rem;
-    overflow-y: auto;
+    overflow-y: scroll;
     height: 100%;
   }
   .list::-webkit-scrollbar {
@@ -61,6 +61,7 @@
 @media (width>=450px) {
   .list {
     font-size: 1rem;
+    overflow-y: scroll;
   }
   .icons {
     font-size: 20px;
@@ -69,6 +70,7 @@
 @media (width>=2000) {
   .list {
     font-size: 2rem;
+    overflow-y: scroll;
   }
   .icons {
     font-size: 40px;
