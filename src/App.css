@@ -50,6 +50,7 @@ body {
   }
   .popUp-task {
     height: 70px;
+    width: 80%;
   }
   .popUp-time {
     height: 2.5rem;
