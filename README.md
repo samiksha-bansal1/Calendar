@@ -1,8 +1,39 @@
-# React + Vite
+# Calendar Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple calendar application built using React and Vite. The calendar allows users to view the current month, navigate between months, and see the current date highlighted.
 
-Currently, two official plugins are available:
+## Features
+- Display the current month and year.
+- Highlight the current date.
+- Navigate between months.
+- Responsive design for different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+You can view the live demo of the project here.
+
+## Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/samiksha-bansal1/calendar.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd calendar
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+5. Open your browser and go to `http://localhost:3000` to view the calendar.
+
+## Usage
+- Open the calendar in your browser.
+- Use the navigation buttons to move between months.
+- The current date is highlighted for easy reference.
