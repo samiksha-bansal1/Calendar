@@ -11,7 +11,7 @@ This is a simple calendar application built using React and Vite. The calendar a
 - Responsive design for different screen sizes.
 
 ## Demo
-You can view the live demo of the project here. `https://samiksha-bansal1.github.io/calendar/`
+You can view the live demo of the project [here](https://samiksha-bansal1.github.io/calendar/).
 
 ## Installation
 To run this project locally, follow these steps:
